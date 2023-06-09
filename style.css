@@ -13,7 +13,10 @@ Task 1:  Targeting Elements by Tag Name + Border
 - Select all 'p' tags and change the font-size to 16px
 - Finally, add a border around all p elements with a 1px solid line of any color you choose
 */
-
+p {
+  font-size: 16px;
+  border: 1px solid #333;
+}
 
 /*
 Task 2:  Targeting Elements by Class + Padding
@@ -22,7 +25,10 @@ Task 2:  Targeting Elements by Class + Padding
 - Below this comment, target the class you just made and give it a pretty background color
 - Give it 20px of padding - note that the background color 'grows' around the text
 */
-
+.navbar {
+  background-color: powderblue;
+  padding: 20px;
+}
 
 
 /*
@@ -31,7 +37,10 @@ Task 3:  Targeting Elements by ID + Margin
 - Below this comment, target that element by its ID and give it a border radius of 2em
 - Finally, add 15px of margin to the bottom of that element. Note that it pushes the other inputs down
 */
-
+#name {
+  border-radius: 2em;
+  margin-bottom: 15px;
+}
 
 /*
 Task 4:  Targeting Elements by Descendant Selectors
@@ -41,7 +50,10 @@ Task 4:  Targeting Elements by Descendant Selectors
   hyperlinks)
 */
 
-
+li a {
+  text-decoration: none;
+  color: #333;
+}
 
 /* End of Section 1: Selectors in CSS */
 
